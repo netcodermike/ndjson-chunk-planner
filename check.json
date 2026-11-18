@@ -1,0 +1,21 @@
+{
+  "command": [
+    "{python}",
+    "app.py"
+  ],
+  "expected": {
+    "totalBytes": 27,
+    "batches": [
+      {
+        "start": 0,
+        "count": 1,
+        "bytes": 11
+      },
+      {
+        "start": 1,
+        "count": 2,
+        "bytes": 16
+      }
+    ]
+  }
+}
